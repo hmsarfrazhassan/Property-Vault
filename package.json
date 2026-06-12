@@ -1,0 +1,19 @@
+{
+  "name": "property-vault",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./property-vault-api/index.js",
+    "start": "NODE_ENV=DEVELOPEMNT nodemon index.js",
+    "prod": "NODE_ENV=PRODUCTION node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0"
+  }
+}
